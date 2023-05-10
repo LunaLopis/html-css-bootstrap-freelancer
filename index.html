@@ -12,6 +12,7 @@
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
         </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
@@ -83,15 +84,21 @@
             </div>
         </div>
     </header>
-
-
-
     <section class="jambotron">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="content-big text-center">
-                        <h1>START BOOTSRAP</h1>
+                    <div class="content-big text-center back-transparent text-light">
+                        <div class="card img-center jambotron border-none" style="width: 18rem;">
+                            <img src="./img/avatar.svg" class="card-img-top" alt="...">
+                        </div>
+                        <div>
+                            <h1>START BOOTSRAP</h1>
+                        </div>
+                        <div class="star-bar">
+                            <span><i class="fa-solid fa-star" style="color: #f5f7fa;"></i></span>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -147,7 +154,7 @@
         </section>
 
         <section class="about">
-            <div class="container back-aqua pad-top-5 pad-bottom-5">
+            <div class="container back-aqua pad-top-5 pad-bottom-5 text-light">
                 <div class="row justify-content-center">
                     <div class="col-6">
                         <div class="container back-orange flex-center">
@@ -182,7 +189,10 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-sm-12">
                         <div class="container back-orange flex-center">
-                            <h1>ABOUT</h1>
+                            <button type="button" class="btn btn-outline-light">Light
+                                <span><i class="fa-solid fa-download" style="color: #e4e5e7;"></i></span>
+                                <span>Download</span>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -199,16 +209,24 @@
 
                 <div class="row justify-content-center">
                     <div class="col-lg-10 col-sm-12">
-                        <div class="container back-purple">
-                            <input class="form-control form-control-lg" type="name" placeholder="Name"
+                        <div class="container">
+                            <input class="form-control form-control-lg stile-input" type="name" placeholder="Name"
                                 aria-label="default input example">
-                            <input class="form-control form-control-lg" type="name" placeholder="Email Address"
+                            <input class="form-control form-control-lg stile-input" type="name"
+                                placeholder="Email Address" aria-label="default input example">
+                            <input class="form-control form-control-lg stile-input" type="name"
+                                placeholder="Phone Number" aria-label="default input example">
+                            <input class="form-control form-control-lg stile-input" type="name" placeholder="Message"
                                 aria-label="default input example">
-                            <input class="form-control form-control-lg" type="name" placeholder="Phone Number"
-                                aria-label="default input example">
-                            <input class="form-control form-control-lg" type="name" placeholder="Message"
-                                aria-label="default input example">
+                            <div class="button-send">
+                                <button type="submit" class="btn btn-primary mb-3">SEND</button>
+                            </div>
+
                         </div>
+
+
+
+
                     </div>
                 </div>
             </div>
@@ -217,29 +235,36 @@
     </main>
 
     <footer>
-        <div class="top-footer">
+        <div class="top-footer text-light">
             <div class="container pad-top-5">
                 <div class="row g-5">
                     <div class="col-lg-4 col-sm-12">
-                        <div class="container">
+                        <div class="container text-center">
                             <h1>location</h1>
-                            <h3>2215 John Daniel Drive Clark, MO</h3>
-                            <h3>54243</h3>
+                            <h4>2215 John Daniel Drive Clark, MO</h4>
+                            <h4>54243</h4>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-12">
-                        <div class="container">
+                        <div class="container text-center">
                             <h1>AROUND THE WEB</h1>
+                            <div class="social-links">
+                                <a href="#"><i class="fa fa-facebook fa-lg"></i></a> 
+                                <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+                                <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in fa-g" style="color: #f0f2f5;"></i></a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-12">
-                        <div class="container">
+                        <div class="container text-center">
                             <h1> CONTACT</h1>
-                            <h3>ABOUT FREELANCER</h3>
-                            <h3> Freelance is a free to use, open source
+                            <h4>ABOUT FREELANCER</h4>
+                            <h4>
+                                Freelance is a free to use, open source
                                 Bootstrap theme created by Start
                                 Bootstrap.
-                            </h3>
+                            </h4>
                         </div>
                     </div>
                 </div>
