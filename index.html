@@ -12,60 +12,42 @@
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
         </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <!-- <header>
-        <div class="container pad-bottom-5">
-            <div class="row justify-content-between">
-                <div class="col-4">
-                    <div class="content transparent">
-                        <h3>START BOOTSTRAP</h3>
-                    </div>
-                </div>
-                <div class="col-4 ">
-                    <div class="content flex-end transparent">
-                        <ul>
-                            <li>PORTFOLIO</li>
-                            <li>ABOUT</li>
-                            <li>CONTACT</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header> -->
-
-    <header>
+    <header class="fixed-top">
         <div class="container">
             <div class="row">
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
                     <div class="container-fluid">
-                        <a class="navbar-brand color-white" href="#">START BOOTSTRAP</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        <a class="navbar-brand color-white font-700" href="#">START BOOTSTRAP</a>
+                        <button class="navbar-toggler border-rad-white" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon border-rad-white"><i class="fa-solid fa-bars"
-                                    style="color: #525252;"></i></span>
+                            <span class="navbar-toggler-icon hamb-padding"><i class="fa-solid fa-bars"
+                                    style="color: #f5f4f4;"></i></span>
                         </button>
                         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                             <div class="d-flex">
-                                <ul class="navbar-nav mb-2 mb-lg-0 color-white">
+                                <ul class="navbar-nav mb-2 mb-lg-0  font-700">
                                     <li class="nav-item">
-                                        <a class="nav-link active color-white" aria-current="page"
+                                        <a class="nav-link active color-white " aria-current="page"
                                             href="#">PORTFOLIO</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link color-white" href="#">ABOUT</a>
+                                        <a class="nav-link color-white " href="#">ABOUT</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link active color-white" aria-current="page" href="#">CONTACT</a>
                                     </li>
                                     <li class="nav-item dropdown color-white">
-
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item color-white" href="#">Action</a></li>
                                             <li><a class="dropdown-item color-white" href="#">Another action</a></li>
@@ -84,19 +66,22 @@
             </div>
         </div>
     </header>
-    <section class="jambotron">
+    <section class="jambotron back-lightblue">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="content-big text-center back-transparent text-light">
-                        <div class="card img-center jambotron border-none" style="width: 18rem;">
+                        <div class="card img-center back-lightblue border-none" style="width: 18rem;">
                             <img src="./img/avatar.svg" class="card-img-top" alt="...">
                         </div>
                         <div>
                             <h1>START BOOTSRAP</h1>
                         </div>
                         <div class="star-bar">
-                            <span><i class="fa-solid fa-star" style="color: #f5f7fa;"></i></span>
+                            <span><i class="fa-solid fa-star fa-2xl" style="color: #f5f7fa;"></i></span>
+                        </div>
+                        <div>
+                            <h1>GRAFIC ARTIST- WEB DESIGNER-ILLUSTRATOR</h1>
                         </div>
 
                     </div>
@@ -104,8 +89,7 @@
             </div>
         </div>
     </section>
-
-
+    
     <main>
         <section class="portfolio">
             <div class="container">
@@ -113,6 +97,9 @@
                     <div class="col-12">
                         <div class="content-title back-orange pad-bottom-5 text-center">
                             <h1>PORTFOLIO</h1>
+                            <div class="star-bar black">
+                                <span><i class="fa-solid fa-star fa-2xl" style="color: #000205;"></i></span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -153,8 +140,8 @@
             </div>
         </section>
 
-        <section class="about">
-            <div class="container back-aqua pad-top-5 pad-bottom-5 text-light">
+        <section class="about back-aqua">
+            <div class="container pad-top-5 pad-bottom-5 text-light">
                 <div class="row justify-content-center">
                     <div class="col-6">
                         <div class="container back-orange flex-center">
@@ -189,7 +176,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-sm-12">
                         <div class="container back-orange flex-center">
-                            <button type="button" class="btn btn-outline-light">Light
+                            <button type="button" class="btn btn-outline-light">
                                 <span><i class="fa-solid fa-download" style="color: #e4e5e7;"></i></span>
                                 <span>Download</span>
                             </button>
@@ -200,35 +187,32 @@
         </section>
 
         <section class="contact">
-            <div class="row justify-content-center">
-                <div class="col-lg-10 col-sm-12">
-                    <div class="container back-orange text-center">
-                        <h1>CONTACT ME</h1>
-                    </div>
-                </div>
-
+            <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-lg-10 col-sm-12">
-                        <div class="container">
-                            <input class="form-control form-control-lg stile-input" type="name" placeholder="Name"
-                                aria-label="default input example">
-                            <input class="form-control form-control-lg stile-input" type="name"
-                                placeholder="Email Address" aria-label="default input example">
-                            <input class="form-control form-control-lg stile-input" type="name"
-                                placeholder="Phone Number" aria-label="default input example">
-                            <input class="form-control form-control-lg stile-input" type="name" placeholder="Message"
-                                aria-label="default input example">
-                            <div class="button-send">
-                                <button type="submit" class="btn btn-primary mb-3">SEND</button>
-                            </div>
-
+                    <div class="col-lg-12 col-sm-12">
+                        <div class="container back-orange text-center">
+                            <h1>CONTACT ME</h1>
                         </div>
-
-
-
-
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12 col-sm-12">
+                            <div class="container">
+                                <input class="form-control form-control-lg stile-input" type="name" placeholder="Name"
+                                    aria-label="default input example">
+                                <input class="form-control form-control-lg stile-input" type="email"
+                                    placeholder="Email Address" aria-label="default input example">
+                                <input class="form-control form-control-lg stile-input" type="phone"
+                                    placeholder="Phone Number" aria-label="default input example">
+                                <input class="form-control form-control-lg stile-input" type="message"
+                                    placeholder="Message" aria-label="default input example">
+                                <div class="button-send">
+                                    <button type="submit" class="btn btn-primary mb-3 btn-color">SEND</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
             </div>
             </div>
         </section>
@@ -237,19 +221,19 @@
     <footer>
         <div class="top-footer text-light">
             <div class="container pad-top-5">
-                <div class="row g-5">
+                <div class="row">
                     <div class="col-lg-4 col-sm-12">
                         <div class="container text-center">
-                            <h1>location</h1>
-                            <h4>2215 John Daniel Drive Clark, MO</h4>
-                            <h4>54243</h4>
+                            <h1>LOCATION</h1>
+                            <h5 class="margin-top">2215 John Daniel Drive Clark, MO</h5>
+                            <h5>54243</h5>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-12">
                         <div class="container text-center">
                             <h1>AROUND THE WEB</h1>
-                            <div class="social-links">
-                                <a href="#"><i class="fa fa-facebook fa-lg"></i></a> 
+                            <div class="social-links margin-top ">
+                                <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
                                 <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
                                 <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
                                 <a href="#"><i class="fa-brands fa-linkedin-in fa-g" style="color: #f0f2f5;"></i></a>
@@ -258,13 +242,12 @@
                     </div>
                     <div class="col-lg-4 col-sm-12">
                         <div class="container text-center">
-                            <h1> CONTACT</h1>
-                            <h4>ABOUT FREELANCER</h4>
-                            <h4>
+                            <h1 class=" ">ABOUT FREELANCER</h1>
+                            <h5 class="margin-top">
                                 Freelance is a free to use, open source
                                 Bootstrap theme created by Start
                                 Bootstrap.
-                            </h4>
+                            </h5>
                         </div>
                     </div>
                 </div>
@@ -274,7 +257,7 @@
         <div class="bottom-footer">
             <div class="container text-center">
                 <div class="row">
-                    <h4>Copyright © Your Website 2019</h4>
+                    <h6>Copyright © Your Website 2019</h6>
                 </div>
             </div>
         </div>
